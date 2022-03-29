@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+     background-color: black;
+     height: 6em;
+
+}
+img{
+    margin-left: 10%;
+    margin-top: 14px;
+}
+.head-tag{
+    float: right;
+    margin-top: 44px;
+    margin-right: 55px;
+
+}
+.head-tag a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+ .head-tag a:hover{
+     background-color: teal;
+     color: black;
+     transition: 0.5s ease-in-out;
+ } 
+.Sidebar{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+padding: 100px;
+
+}
+.Sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}  
+/* form */
+.login{
+    float: right;
+    border: solid red;
+    background-color: beige;
+    height: 5em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+.login h2{
+    text-align: center;
+}
+ 
+.login input {
+    height: 1.5em;
+}
+ .login #login-button{
+     width: 100%;
+     height: 1.8em;
+     color: white;
+     background-color:  dodgerblue;
+     border: solid 1px dodgerblue;
+ }
+
+ .container{
+     /* border: 2px solid black; */
+     margin-top: 7%;
+     margin-left: 5%;
+
+
+ }
+    
+   
+    
+ .p-box{
+     border: 3px solid white;
+     width: 22%;
+     float: left;
+     margin-left: 10px;
+     height: 15em;
+     padding: 6px;
+     background-color: #cccccc;
+ }
+ .p-box h3{
+     text-align: center;
+ }
+ .p-box p{
+     line-height: 1.1em;
+     text-align: justify;
+ }
+ .p-box a{
+     text-decoration: none;
+     color: red;
+ }
+     
+
+  footer{
+      background-color: black;
+      color: white;
+      height: 1.5em;
+      margin-top: 15%;
+  }
+    
+  footer h3{
+      text-align: center;
+  }
+   
+    .sample{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 5%;
+        color: crimson;
+        padding: 1.5em;
+    }
+
+  .padma{
+      padding: 5%;
+      margin-left: 5%;
+      color: red;
+     }
+.chinnakada{
+    padding: 5%;
+    margin-left: 5%;
+    color: orange;
+}
+
+.pathanam{
+    padding: 5%;
+    margin-left: 5%;
+    color: pink;
+}   
+
+.cherthala{
+    padding: 5%;
+    margin-left: 5%;
+    color: brown;
+}
+.kochi{
+    padding: 5%;
+    margin-left: 5%;
+    color: black
+}
+
+ 
+
+    
+
+/* form */
+.opening{
+    float: right;
+     
+    border: solid red;
+    background-color: beige;
+    height: 15em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+.opening h2{
+    text-align: center;
+}
+ 
+ .opening input {
+    height: 1.5em;
+}
+  .opening #login-button{
+     width: 100%;
+     height: 1.8em;
+     color: white;
+     background-color:  dodgerblue;
+     border: solid 1px dodgerblue;
+ }
+
+
+
+           
+
+
+
+
+
+
+
+
