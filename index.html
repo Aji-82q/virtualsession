@@ -1,36 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login kerala tourism</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
-<body background="images/kerala-india-dance-kathakali.jpg">
-     
-   <!--Login form  -->
-   <form action="#" class="opening">
-    <h2>User Login</h2>
+<body>
+    <form action="District.html" onsubmit=" return validate()"> 
+        <h3>Login Form</h3>
+    <label for="email">Email</label>
+    <input type="text" placeholder="Email" id="email">
+    <label for="error" id="error"></label>
     <br>
-    <div class="opening- cont">
-        <label  ="User name"></label>
-        <br>
-        <input type="text" placeholder="Enter your name">
-         
-    </div> 
-    <br> 
-      <div class="opening-cont" 
-      <label  ="Password"></label>
-      <br>
-       <input type="password" placeholder="password">
-  </div>
-   
-   <br>
-   
-  <div >
-      <button id="opening-button">Log in</button>
-  </div>
-
-    
-
-
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="pwd">
+    <br>
+    <button id="submit">Login</button>
+    <h3>New user?</h3>
+    <h4>Sign Up</h4>
+</form>
+<script src="form.js"></script>
 </body>
 </html>
